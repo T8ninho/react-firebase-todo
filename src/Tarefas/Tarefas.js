@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import {db} from './firebase';
+import {db} from './firebase/firebase';
 import { Input, Button, Switch } from 'antd';
 
 const useFirestoreCollection = (collection) => {
